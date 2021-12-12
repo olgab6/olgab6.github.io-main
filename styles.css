@@ -1,0 +1,151 @@
+html {
+    scroll-behavior: smooth;
+
+}
+
+body{
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction:row;
+    align-items:stretch;
+    justify-content:right;
+    background: #7879F1;
+    font-family: 'Indie Flower', cursive;
+    
+}
+
+.media-menu-item {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.media-menu-item__arrow {
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* MAIN PART */
+
+h2 {
+    font-family: "Arizonia", cursive;
+    color: #9ACEAF;
+    font-size: 40px;
+    margin-bottom: 0;
+    padding: -50px;
+    padding-left: 15%;
+
+}
+h3 {
+    font-family: "Arizonia", cursive;
+    color: #9ACEAF;
+    font-size: 60px;
+    padding-left: 3%;
+}
+h1 {
+    font-family: "Indie flower", cursive;
+    color: #7879F1;
+    font-size: 150px;
+    padding-left:15%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.main-part {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-part .peacock {
+    position: absolute;
+    top: 0;
+    padding-left: 0;
+    z-index: -1;
+    width: 190px;
+    padding-top: 20px;
+}
+.main-part .fenix {
+    position: absolute;
+    width: 280px;
+    padding-left: 770px;
+    top: 570px;
+     
+}
+.O-speech {
+    font-family: "Arizonia", cursive;
+    font-size: 28px;
+    color: #817F7F;
+    display: flex;
+    width: 600px;
+    padding-left: 18%;
+    padding-top: 0px;
+    justify-content: space-around;
+
+}
+.K-speech {
+    font-family: "Indie flower", cursive;
+    font-size: 24px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    padding-left: 8%;
+    padding-top: 100px;
+
+}
+.yellow-group {
+    position: absolute;
+    width: 130px;
+    padding-left: 210px;
+    top: 360px;
+}
+.flag {
+    position: absolute;
+    width: 180px;
+    padding-left: 150px;
+    top: 590px;
+
+}
+.purple-group {
+    position: absolute;
+    width: 130px;
+    padding-left: 650px;
+    top: 830px;
+}
+.button-picture {
+    width: 400px;
+}
+.flower-text {
+    font-family: "Arizonia", cursive;
+    font-size: 60px;
+    color: #F1EC9E;
+}
+.sea-text {
+    font-family: "Arizonia", cursive;
+    font-size: 60px;
+    color: #7BC8CA;
+}
+.nature-text {
+    font-family: "Arizonia", cursive;
+    font-size: 60px;
+    color: #9ACEAF;
+}
+.mountain-text {
+    font-family: "Arizonia", cursive;
+    font-size: 60px;
+    color: #E5AAAA
+}
+.buttons {
+    margin: 70px;
+    
+}
